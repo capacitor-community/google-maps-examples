@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {},
   "dependencies": {
-    "@capacitor-community/google-maps": "git+https://github.com/capacitor-community/capacitor-googlemaps-native.git#next",
+    "@capacitor-community/capacitor-googlemaps-native": "git+https://github.com/capacitor-community/capacitor-googlemaps-native.git#next",
     "@capacitor/android": "^3.4.3",
     "@capacitor/core": "^3.4.3",
     "@capacitor/ios": "^3.4.3"
