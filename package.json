@@ -1,0 +1,13 @@
+{
+  "name": "@capacitor-community/google-maps-examples",
+  "version": "0.0.0",
+  "scripts": {},
+  "dependencies": {
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/core": "^3.4.3",
+    "@capacitor/ios": "^3.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^3.4.3"
+  }
+}

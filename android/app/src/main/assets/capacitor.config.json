@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "Capacitor Google Maps",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
