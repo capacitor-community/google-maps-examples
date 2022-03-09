@@ -1,1 +1,6 @@
-[]
+[
+	{
+		"pkg": "@capacitor-community/google-maps",
+		"classpath": "com.hemangkumar.capacitorgooglemaps.CapacitorGoogleMaps"
+	}
+]
