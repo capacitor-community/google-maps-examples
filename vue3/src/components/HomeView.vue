@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { CapacitorGoogleMaps } from '@capacitor-community/capacitor-googlemaps-native';
+import { CapacitorGoogleMaps } from '@capacitor-community/google-maps';
 import { ref, onMounted } from 'vue';
 
 import CButton from './CButton.vue';

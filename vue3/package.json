@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@capacitor-community/capacitor-googlemaps-native": "git+https://github.com/capacitor-community/capacitor-googlemaps-native.git#next",
+    "@capacitor-community/google-maps": "^2.0.0-beta.1",
     "vue": "^3.2.31"
   },
   "devDependencies": {
