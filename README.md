@@ -2,6 +2,7 @@
 
 ## How to Run
 
+- Run `npm install` in the root directory.
 - Change into the UI Framework directory of choice. (e.g. `cd vue3`)
 - Run `npm install`.
 - Build the web app: `npm run build`.
