@@ -15,4 +15,4 @@
   - For info about obtaining API-keys, check out the [documentation](https://capacitor-community.github.io/google-maps/#/getting-started/installation?id=obtain-api-keys)
 - Open the native IDE and run the app: `npx cap open android` or `npx cap open ios`.
 
-* This step is only needed after running `npm install`. So probably only the first time you clone this repository.
+\* This step is only needed after running `npm install`. So probably only the first time you clone this repository.
