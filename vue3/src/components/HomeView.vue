@@ -5,6 +5,7 @@
     <div class="row gap-4">
       <CButton v-if="!exampleMapId" @click="startMap"> CreateMap </CButton>
       <CButton @click="addMarker"> AddMarker </CButton>
+      <CButton @click="addMarkers"> AddMarkers (3000) </CButton>
       <CButton @click="moveCamera"> MoveCamera </CButton>
     </div>
   </div>
@@ -137,6 +138,40 @@ const addMarker = async () => {
   });
 
   alert('marker created: ' + JSON.stringify(result, null, 1));
+};
+
+const addMarkers = async () => {
+  if (!exampleMapId.value) {
+    return;
+  }
+
+  const markers = new Array(3000).fill(true);
+
+  await Promise.all(
+    markers.map(() => {
+      if (!exampleMapId.value) {
+        return;
+      }
+
+      return CapacitorGoogleMaps.addMarker({
+        mapId: exampleMapId.value,
+        position: {
+          latitude: -getRandomArbitrary(30, 35),
+          longitude: getRandomArbitrary(150, 155),
+        },
+        preferences: {
+          title: 'Some title',
+          snippet: 'Some snippet',
+          metadata: {
+            some: 'data',
+          },
+          icon: {
+            url: 'https://amberbrantjes.nl/wp-content/uploads/2015/10/map-marker-icon.png',
+          },
+        },
+      });
+    })
+  );
 };
 
 const moveCamera = async () => {
